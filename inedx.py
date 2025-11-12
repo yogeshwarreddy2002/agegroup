@@ -12,7 +12,7 @@ if i=="1-25":
      {"name": "Sneha", "age": 19, "gender": "Female", "age_group": "1-25"},
      {"name": "Kiran", "age": 25, "gender": "Male", "age_group": "1-25"},
      ]
-     st.dataframe(users)  
+     st.table(users)  
 
 if i=="26-51":
     users = [
@@ -43,4 +43,5 @@ if i=="76-100":
     st.dataframe(users)
 
   
+
 
